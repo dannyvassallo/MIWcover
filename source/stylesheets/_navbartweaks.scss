@@ -1,0 +1,30 @@
+.navbar{
+  margin-bottom: 0 !important;
+}
+.navbar-header {
+  float: left;
+  text-align: center;
+  width: 100%;
+  img{
+    position: relative;
+    z-index: 99999;
+  }
+}
+.navbar-brand {float:none;}
+.navbar-default{
+  height: 50px;
+  border-bottom: solid 1px #FF5F1B;
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(top, #000000 0%, #521E09 100%);
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top, #000000 0%, #521E09 100%);
+  /* Opera */ 
+  background-image: -o-linear-gradient(top, #000000 0%, #521E09 100%);
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #521E09));
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top, #000000 0%, #521E09 100%);
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to bottom, #000000 0%, #521E09 100%);
+  border-radius: 0;
+}
