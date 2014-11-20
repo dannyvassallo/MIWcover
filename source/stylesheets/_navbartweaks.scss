@@ -14,6 +14,9 @@
 .navbar-default{
   height: 50px;
   border-bottom: solid 1px #FF5F1B;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
   /* IE10 Consumer Preview */ 
   background-image: -ms-linear-gradient(top, #000000 0%, #521E09 100%);
   /* Mozilla Firefox */ 
