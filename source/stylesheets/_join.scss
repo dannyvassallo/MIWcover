@@ -1,0 +1,63 @@
+#join{
+  background: url(https://s3.amazonaws.com/myfangate.com/miwcover/testpattern.jpg);
+  background-repeat: repeat;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, black , transparent, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, black , transparent, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, black , transparent, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, black , transparent, black); /* Standard syntax */
+    opacity: .8; 
+  }
+  img{
+    margin: 0 auto;
+  }
+  .prizingtear{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+  }
+  .prizingtear2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9998;
+  }
+  .logo{
+    margin-bottom: -80px;
+    z-index: 9996;
+    position: relative;
+  }
+  .promo{
+    z-index: 9997;
+    position: relative;
+  }
+  .row{
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+}
+
+.shadow {
+    -webkit-filter: drop-shadow( 0px 0px 10px #000 );
+            filter: drop-shadow( 0px 0px 10px #000 ); /* Same syntax as box-shadow */
+}
+
+@media (max-width: 990px){
+  .logo {
+    margin-bottom: -40px!important;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin-bottom: 0!important;
+  }
+}
