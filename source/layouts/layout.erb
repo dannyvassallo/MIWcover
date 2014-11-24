@@ -5,6 +5,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <title><%= current_page.data.title || "Motionless In White" %></title>
     <link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <%= stylesheet_link_tag "normalize", "all" %>
     <script>window.analyticsId="<%= ENV['ANALYTICS_ID'] %>";</script>
     <script>
@@ -19,13 +20,14 @@
   </head>
   
   <body class="<%= page_classes %>">
+    <%= yield %>
     <%= partial "navbar" %>
     <%= partial "header" %>
     <%= partial "calltoaction" %>
     <%= partial "prizing" %>
     <%= partial "contest" %>
     <%= partial "join" %>
-    <%= yield %>
+    <%= partial "footer" %>
     <%= javascript_include_tag  "all" %>
   </body>
 </html>

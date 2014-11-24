@@ -5,3 +5,15 @@ ul.ss-choices{
 .required-message{
   display: none;
 }
+
+.videoContainer{
+  text-align: center;
+}
+
+.formHeader{
+  text-align: center;
+}
+
+@media (max-width: 1200px){
+  .videoContainer{margin-bottom: 100px;}
+}
