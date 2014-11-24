@@ -2,6 +2,10 @@
   text-align: center;
   border-bottom: solid 1px #FF5F1B;
   margin-bottom: 20px;
+  max-width: 700px;
+  h1{
+    margin: 0 auto;
+  }
 }
 .ctatext2{
   text-align: center;
@@ -10,4 +14,9 @@
   width: 150px;
   margin-bottom: 10px;
   margin-left: 10px;
+}
+
+.ctarow{
+  max-width: 700px;
+  margin: 0 auto;
 }
